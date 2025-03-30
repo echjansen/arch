@@ -67,6 +67,7 @@ xdg-desktop-portal-gtk # File chooser and others
 flameshot # Take screenshots
 grim # flameshot dependency for Wayland
 wezterm # Terminal emulator
+foot    # Better terminal
 wl-clipboard
 bemenu-wayland
 python-i3ipc # Interact with Sway using Python
