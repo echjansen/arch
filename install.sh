@@ -125,7 +125,7 @@ echo "Setting up fastest mirrors..."
 reflector --country Australia --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 clear
 
-# echo "Writing random bytes to $device, go grab some coffee it might take a while"
+echo "Writing random bytes to $device, go grab some coffee it might take a while"
 # dd bs=1M if=/dev/urandom of="$device" status=progress || true
 
 # Setting up partitions

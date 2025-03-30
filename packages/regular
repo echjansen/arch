@@ -42,10 +42,10 @@ restic
 syncthing
 
 # Virtualization/Containerization
-#docker
-#docker-compose
-#qemu-full
-#virt-manager
+docker
+docker-compose
+qemu-full
+virt-manager
 
 # Monitoring
 audit # Log system failures and important security events
@@ -99,7 +99,7 @@ arc-gtk-theme
 papirus-icon-theme
 
 # Dev
-mg
+neovim
 git
 lazygit
 rustup
@@ -116,6 +116,16 @@ gdb
 pwndbg
 strace
 
+# File viewers/editors
+zathura
+zathura-pdf-poppler
+swayimg
+mpv
+gimp
+imagemagick
+tree
+fzf
+
 # CLI
 zsh
 dash
@@ -131,3 +141,4 @@ debootstrap # see docs/HOW_TO_SECURE_USB_DEVICE.md
 signal-desktop
 usbutils
 wtype
+dmidecode # used by libvirtd
